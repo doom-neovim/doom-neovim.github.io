@@ -1,0 +1,13 @@
+.pop-exit {
+  opacity: 1;
+}
+.pop-exit-active {
+  transition: all 0.5s cubic-bezier(.47,-1,1,.16);
+  stroke-width: 0.2px;
+  stroke-dasharray: 0.7 2.3;
+  opacity: 0;
+  transform: translateY(25%);
+}
+.pop-exit-done {
+  opacity: 0;
+}

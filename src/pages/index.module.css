@@ -1,0 +1,88 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-background-color);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+}
+@media (max-width: 996px) {
+  .buttons {
+    justify-content: center;
+  }
+}
+
+.Hero_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 996px) {
+  .Hero_Container {
+    flex-direction: row;
+    justify-content: center;
+    min-height: 600px;
+  }
+}
+
+.Hero_Title {
+  color: var(--ifm-font-color-base);
+  font-size: 56px;
+}
+@media (max-width: 996px) {
+  .Hero_Title {
+    font-size: 48px;
+    max-width: 600px;
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 670px) {
+  .Hero_Title {
+    font-size: 24px;
+    max-width: 335px;
+    margin: 0.5rem;
+  }
+}
+
+.Hero_TextContainer {
+  text-align: left;
+  flex-basis: 50%;
+  padding: 4rem 0;
+}
+@media (max-width: 996px) {
+  .Hero_TextContainer {
+    order: 2;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+}
+.Hero_AnimationContainer {
+  position: relative;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  max-height: 300px;
+}
+@media (max-width: 996px) {
+  .Hero_AnimationContainer {
+    order: 1;
+    max-height: 140px;
+  }
+}
+.Hero_AnimationContainer svg {
+  height: 100%;
+  width: 100%;
+}

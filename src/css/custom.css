@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ce1c3d;
+  --ifm-color-primary-dark: #b91937;
+  --ifm-color-primary-darker: #af1834;
+  --ifm-color-primary-darkest: #90142b;
+  --ifm-color-primary-light: #e12144;
+  --ifm-color-primary-lighter: #e22b4d;
+  --ifm-color-primary-lightest: #e64a67;
+  --ifm-code-font-size: 95%;
+  --bg-deemf: var(--ifm-color-gray-100);
+  --ifm-menu-color: var(--ifm-color-emphasis-500);
+  --navbar-color: rgba(255, 255, 255, 0.5);
+  --ifm-menu-color-background-active: transparent;
+  --ifm-menu-color-background-hover: transparent;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-toc-border-color: transparent;
+
+  --doom-menu-color: rgba(24, 24, 24, 0.6);
+  --doom-menu-color-emph: rgba(24, 24, 24, 0.9);
+
+  /* Adjust container widths */
+  --ifm-container-width: 980px;
+  --ifm-container-width-xl: 1220px;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #ff385d;
+  --ifm-color-primary-dark: #ff1944;
+  --ifm-color-primary-darker: #ff0937;
+  --ifm-color-primary-darkest: #da0028;
+  --ifm-color-primary-light: #ff5776;
+  --ifm-color-primary-lighter: #ff6783;
+  --ifm-color-primary-lightest: #ff95a9;
+  --ifm-background-color: #242424;
+  --bg-deemf: #202020;
+  --navbar-color: #24242488;
+  --ifm-menu-color-background-active: transparent;
+  --ifm-menu-color-background-hover: transparent;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-toc-border-color: transparent;
+
+  --doom-menu-color: rgba(235, 235, 235, 0.6);
+  --doom-menu-color-emph: rgba(235, 235, 235, 0.9);
+}
+
+@media (min-width: 996px) {
+  .navbar  {
+    -webkit-backdrop-filter: saturate(50%) blur(8px);
+    backdrop-filter: saturate(50%) blur(8px);
+    background: var(--navbar-color);
+  }
+}
+
+.menu {
+  --ifm-menu-color: var(--doom-menu-color);
+  font-weight: 400;
+}
+.menu__link:hover {
+  --ifm-menu-color: var(--doom-menu-color-emph);
+}
+.theme-doc-sidebar-item-category-level-1 {
+  margin: 20px 0;
+}
+
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > a {
+  --ifm-menu-color: var(--doom-menu-color-emph);
+  font-weight: 700;
+}
+
+.theme-doc-sidebar-container {
+  border-right: none;
+  background: rgba(0, 0, 0, 0.2);
+}
