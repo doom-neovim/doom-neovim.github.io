@@ -83,7 +83,7 @@ doom.use_keybind({
   }},
 })
 ```
-> For more information on adding and configuring keybinds, see [here](./TODO:).
+> For more information on adding and configuring keybinds, see [here](./keymaps).
 
 ### Adding autocommands
 
@@ -96,7 +96,7 @@ doom.use_autocmd({
   { "FileType", "python", "<CMD>echo 'snake'<CR>", once = true }
 })
 ```
-> For more information on adding and configuring autocommands, see [here](./TODO:).
+> For more information on adding and configuring autocommands, see [here](./autocommands).
 
 ### Adding commands
 
@@ -110,7 +110,7 @@ doom.use_cmd({
   { 'MyStringCommand', "<CMD>echo 'my_string_command'<CR>",
 })
 ```
-> For more information on adding and configuring commands, see [here](./TODO:).
+> For more information on adding and configuring commands, see [here](./commands).
 
 ## Overriding a module's keybinds, autocommands or commands
 

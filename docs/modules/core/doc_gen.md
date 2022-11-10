@@ -4,7 +4,7 @@ Internal module for generating doom-nvim documentation.
 
 Most of the parsing and helpdoc generation logic is handled by mini.doc.
 The markdown - support is added by patching and overriding the default
-behaviour [check mini_doc_config.lua](./mini_doc_config.lua).
+behaviour.
 
 Although this is a "core" module it is not enabled by default.  To enable it
 you must add the `core` field to your `modules.lua` file.

@@ -31,8 +31,8 @@ how doom modules work. However, we believe the investment will be worth the
 effort as it will allow you to escape the need to constantly update your config
 as APIs break.
 
-To see all modules click [here](./modules/all_modules) and to see how to make
-your own click [here](./modules/building_custom_module)
+To see all modules click [here](./modules/all-modules) and to see how to make
+your own click [here](./modules/building-custom-module)
 
 ## Release structure
 

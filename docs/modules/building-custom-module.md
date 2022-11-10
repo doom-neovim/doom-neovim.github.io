@@ -4,7 +4,7 @@
 
 A doom module is a stand-alone collection of packages, autocommands, commands,
 keybinds that adds capabilities to doom-nvim.  They are implemented using a
-standardised format documented [here](./modules_schema.md) and consumed by the
+standardised format documented [here](./module-spec) and consumed by the
 doom-nvim framework.
 
 This guide shows you how to implement a new doom module that counts the number of
@@ -154,7 +154,7 @@ Now restart doom nvim and run `:CountPrint` and `:CountReset` to test it out.
 
 ### 6. Adding keybinds
 
-Keybinds are provided using the `module.binds` field.  We use a modified [nest.nvim](../services/keymaps) config that integrates with whichkey and nvim-mapper. You can read more about it [here](https://github.com/connorgmeehan/nest.nvim/tree/integrations-api#quickstart-guide) but generally you should provide the `name` field for all entries so it displays in whichkey.
+Keybinds are provided using the `module.binds` field.  We use a modified [nest.nvim](../keymaps) config that integrates with whichkey and nvim-mapper. You can read more about it [here](https://github.com/connorgmeehan/nest.nvim/tree/integrations-api#quickstart-guide) but generally you should provide the `name` field for all entries so it displays in whichkey.
 
 ```lua
 -- lua/user/modules/features/char_counter/init.lua
@@ -298,7 +298,6 @@ char_counter.cmds = {
 ### 9. Contributing your module upstream
 
 > Builtin modules are loaded from the `lua/doom/modules/` folder.  Within this folder there is a `features/`, `langs/` and `core/` directory.
-> If you look at [`modules.lua`](../modules.lua) you'll see that the table fields are used to lookup the subfolder.
 ```lua
 return {
   features = {
@@ -311,7 +310,7 @@ return {
 ```
 
 If you would like to contribute your module, just move it from `lua/user/modules/<module_name>` to
-`lua/user/modules/<langs|features>/<module_name>` and create a PR in accordance with our [Contributing Guidelines](./contributing.md).
+`lua/user/modules/<langs|features>/<module_name>` and create a PR in accordance with our [Contributing Guidelines](../contributing).
 
 ### 10. You're done!  Final output
 
