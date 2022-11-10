@@ -18,6 +18,9 @@ const sidebars = {
     { type: 'category', label: 'Guide', collapsible: false, items: [
       { type: 'doc', id: 'introduction' },
       { type: 'doc', id: 'getting-started' },
+      { type: 'doc', id: 'keymaps' },
+      { type: 'doc', id: 'autocommands' },
+      { type: 'doc', id: 'commands' },
     ]},
     { type: 'category', label: 'Modules', items: [
       {type: 'doc', id: 'modules/all-modules' },

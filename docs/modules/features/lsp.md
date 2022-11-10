@@ -177,19 +177,19 @@ i.e.:
 
 ```lua
 local lsp_packages = doom.features.lsp.packages
-lsp_packages['cmp-nvim-lsp'].commit = '<my_new_commit_sha>'
+lsp_packages['nvim-lspconfig'].commit = '<my_new_commit_sha>'
 ```
 
 |                Key |                   Source |                            Commit | Is Lazy? |
 | ------------------ | ------------------------ | --------------------------------- | -------- |
+| <code> nvim-lspconfig </code> | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | [01ce5f04384ebe79527284fd177938412](https://github.com/neovim/nvim-lspconfig/commit/334cc8601ce5f04384ebe79527284fd177938412) |          |
 | <code> cmp-nvim-lsp </code> | [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | [a5c56b71630f17aa7c38e15c59fd648a8](https://github.com/hrsh7th/cmp-nvim-lsp/commit/affe808a5c56b71630f17aa7c38e15c59fd648a8) |          |
 | <code> cmp_luasnip </code> | [saadparwaiz1/cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip) | [bcbda508d0a45d28ae366bb3f08db2e36](https://github.com/saadparwaiz1/cmp_luasnip/commit/a9de941bcbda508d0a45d28ae366bb3f08db2e36) |          |
-| <code> cmp-buffer </code> | [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) | [9166796b644a841a02de8dd1cc1d311fa](https://github.com/hrsh7th/cmp-buffer/commit/3022dbc9166796b644a841a02de8dd1cc1d311fa) |          |
+| <code> nvim-cmp </code> | [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | [23abc6c3fe5f3600145d2a413703e7272](https://github.com/hrsh7th/nvim-cmp/commit/0e436ee23abc6c3fe5f3600145d2a413703e7272) |          |
 | <code> cmp-path </code> | [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path) | [d9c29299a64f968ebb45846c485725f23](https://github.com/hrsh7th/cmp-path/commit/91ff86cd9c29299a64f968ebb45846c485725f23) |          |
 | <code> lsp_signature.nvim </code> | [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) | [58771db3f086c8d904ff5f80705fd962b](https://github.com/ray-x/lsp_signature.nvim/commit/e65a63858771db3f086c8d904ff5f80705fd962b) |          |
 | <code> cmp-nvim-lua </code> | [hrsh7th/cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua) | [e7198ab7d00f117e88e223b4bd8c02d21](https://github.com/hrsh7th/cmp-nvim-lua/commit/d276254e7198ab7d00f117e88e223b4bd8c02d21) |          |
-| <code> nvim-cmp </code> | [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | [23abc6c3fe5f3600145d2a413703e7272](https://github.com/hrsh7th/nvim-cmp/commit/0e436ee23abc6c3fe5f3600145d2a413703e7272) |          |
-| <code> nvim-lspconfig </code> | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | [01ce5f04384ebe79527284fd177938412](https://github.com/neovim/nvim-lspconfig/commit/334cc8601ce5f04384ebe79527284fd177938412) |          |
+| <code> cmp-buffer </code> | [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) | [9166796b644a841a02de8dd1cc1d311fa](https://github.com/hrsh7th/cmp-buffer/commit/3022dbc9166796b644a841a02de8dd1cc1d311fa) |          |
 
                                  `lsp.binds`()
 ## Keybinds

@@ -38,6 +38,11 @@ doc_gen.settings = {
   --@type 'helpdoc'|'markdown'
   --@default 'helpdoc'
   output_format = "helpdoc",
+
+  -- Destination for generated output
+  -- @type string|nil
+  -- @default nil
+  website_folder = nil,
 }
 ```
 

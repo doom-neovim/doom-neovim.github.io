@@ -63,13 +63,13 @@ i.e.:
 
 ```lua
 local dap_packages = doom.features.dap.packages
-dap_packages['nvim-dap'].commit = '<my_new_commit_sha>'
+dap_packages['nvim-dap-ui'].commit = '<my_new_commit_sha>'
 ```
 
 |         Key |                Source |                            Commit | Is Lazy? |
 | ----------- | --------------------- | --------------------------------- | -------- |
-| <code> nvim-dap </code> | [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | [bd4e5f81e8376f9d9681b5c4ee4483c25](https://github.com/mfussenegger/nvim-dap/commit/0b320f5bd4e5f81e8376f9d9681b5c4ee4483c25) |          |
 | <code> nvim-dap-ui </code> | [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | [221c91686dcf4d6b62d7a7b2d112e0b13](https://github.com/rcarriga/nvim-dap-ui/commit/1cd4764221c91686dcf4d6b62d7a7b2d112e0b13) |          |
+| <code> nvim-dap </code> | [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | [bd4e5f81e8376f9d9681b5c4ee4483c25](https://github.com/mfussenegger/nvim-dap/commit/0b320f5bd4e5f81e8376f9d9681b5c4ee4483c25) |          |
 
 ## Keybinds
 
